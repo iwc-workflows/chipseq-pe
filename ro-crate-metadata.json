@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2023-01-13T10:44:42.687400",
+            "datePublished": "2023-08-31T07:11:57.476431",
             "hasPart": [
                 {
                     "@id": "chipseq-pe.ga"
@@ -40,7 +40,7 @@
             },
             "mentions": [
                 {
-                    "@id": "#test1"
+                    "@id": "#test_main_1"
                 }
             ],
             "name": "chipseq-pe/main"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/chipseq-pe",
-            "version": "0.3"
+            "version": "0.4"
         },
         {
             "@id": "#galaxy",
@@ -96,25 +96,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test1",
+            "@id": "#test_main_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "chipseq-pe-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test1_1"
+                    "@id": "#test_main_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "chipseq-pe.ga"
             },
-            "name": "test1"
+            "name": "test_main_1"
         },
         {
-            "@id": "#test1_1",
+            "@id": "#test_main_1_1",
             "@type": "TestInstance",
-            "name": "test1_1",
+            "name": "test_main_1_1",
             "resource": "repos/iwc-workflows/chipseq-pe/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -138,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.3"
+            "engineVersion": ">=0.75.9"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
